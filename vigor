@@ -85,15 +85,15 @@ Plug 'vim-airline/vim-airline'
 Plug 'ianva/vim-youdao-translater'
 
 " 代码自动完成，安装完插件还需要额外配置才可以使用
-Plug 'Valloric/YouCompleteMe'
+"Plug 'Valloric/YouCompleteMe'
 
 " 可以在文档中显示 git 信息
 Plug 'airblade/vim-gitgutter'
 
 
 " 下面两个插件要配合使用，可以自动生成代码块
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
+"Plug 'SirVer/ultisnips'
+"Plug 'honza/vim-snippets'
 
 " 可以在 vim 中使用 tab 补全
 "Plug 'vim-scripts/SuperTab'
@@ -104,11 +104,11 @@ Plug 'honza/vim-snippets'
 
 " 配色方案
 " colorscheme neodark
-Plug 'KeitaNakamura/neodark.vim'
+"Plug 'KeitaNakamura/neodark.vim'
 " colorscheme monokai
-Plug 'crusoexia/vim-monokai'
+"Plug 'crusoexia/vim-monokai'
 " colorscheme github
-Plug 'acarapetis/vim-colors-github'
+"Plug 'acarapetis/vim-colors-github'
 " colorscheme one
 Plug 'rakr/vim-one'
 
@@ -118,8 +118,8 @@ Plug 'fatih/vim-go', { 'tag': '*' }
 Plug 'dgryski/vim-godef'
 
 " markdown 插件
-Plug 'iamcco/mathjax-support-for-mkdp'
-Plug 'iamcco/markdown-preview.vim'
+"Plug 'iamcco/mathjax-support-for-mkdp'
+"Plug 'iamcco/markdown-preview.vim'
 
 " 插件结束的位置，插件全部放在此行上面
 call plug#end()
