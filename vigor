@@ -110,7 +110,7 @@ Plug 'airblade/vim-gitgutter'
 " colorscheme github
 "Plug 'acarapetis/vim-colors-github'
 " colorscheme one
-Plug 'rakr/vim-one'
+"Plug 'rakr/vim-one'
 
 " go 主要插件
 Plug 'fatih/vim-go', { 'tag': '*' }
