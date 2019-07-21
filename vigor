@@ -158,6 +158,14 @@ let g:go_highlight_generate_tags = 1
 
 let g:godef_split=2
 
+" vim-go插件快捷键
+map <leader>b :GoDebugBreakpoint<CR>
+map <leader>ds :GoDebugStart<CR>
+map <leader>n  :GoDebugNext<CR>
+map <leader>s  :GoDebugStep<CR>
+map <leader>C  :GoDebugStep<CR>
+map <leader>S  :GoDebugStepOut<CR>
+map <leader>dS :GoDebugStop<CR>
 
 "==============================================================================
 " NERDTree 插件
@@ -273,6 +281,9 @@ map <silent> <F6> <Plug>StopMarkdownPreview
 :nn <Leader>9 8gt
 :nn <Leader>0 :tablast<CR>
 
+map <C-x>k :bd<CR>
+map <C-x>n :bn<CR>
+map <C-x>p :bp<CR>
 
 "==============================================================================
 " GVim 的配置
