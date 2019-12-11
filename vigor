@@ -282,7 +282,7 @@ if has('gui_running')
         :nn <M-9> 9gt
         :nn <M-0> :tablast<CR>
 endif
-    '''
+'''
     with open(os.path.expanduser('~/.vigor'), 'w') as f:
             content = base_vimrc +  plug_vimrc + config_vimrc
             f.write(content)
