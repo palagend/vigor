@@ -2,7 +2,7 @@
 
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    https://gitea.com/palagend/vim-plug/raw/branch/master/plug.vim
 
 git clone https://github.com/palagend/vigor.git
 cd vigor
